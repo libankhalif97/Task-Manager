@@ -6,7 +6,7 @@ The Task Manager app is a task management application built using React. It allo
 
 Installation
 
-Clone the repository from GitHub: [repository link]
+Clone the repository from GitHub: [https://github.com/libankhalif97/Task-Manager]
 Install the dependencies by running npm install or yarn install in the project directory.
 Start the app by running npm start or yarn start.
 
