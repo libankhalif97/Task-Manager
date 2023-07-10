@@ -8,14 +8,16 @@ body {
 
 /* App component styles */
 .app {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin-top: 50px;
 }
 
 .task-manager-header {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   margin-bottom: 10px;
   margin-right: 20px;
 }
@@ -33,10 +35,8 @@ h1 {
 }
 
 .filter {
-  flex-grow: 1;
   display: flex;
   align-items: center;
-  justify-content: flex-start;
   margin-top: 20px;
 }
 
@@ -57,11 +57,6 @@ h1 {
 }
 
 /* TaskForm component styles */
-
-.tasks-form {
-  display: flex;
-  flex-direction: column;
-}
 
 .form-row {
   display: flex;
