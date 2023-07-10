@@ -25,10 +25,6 @@ body {
   margin-right: 10px;
 }
 
-.filter {
-  flex-grow: 0;
-}
-
 h1 {
   color: #e5ebf4;
   font-size: 40px;
@@ -40,7 +36,7 @@ h1 {
   flex-grow: 1;
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: flex-start;
   margin-top: 20px;
 }
 
