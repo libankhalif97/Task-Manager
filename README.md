@@ -1,5 +1,9 @@
 # Task-Manager App Documentation
 
+
+// see live: https://stellar-mandazi-1e24dc.netlify.app/
+
+
 **Introduction**
 
 The Task Manager app is a task management application built using React. It allows users to create, manage, and organise tasks within different status columns. The app provides features such as adding tasks, filtering tasks, drag and drop functionality for task reordering, and task details editing.
