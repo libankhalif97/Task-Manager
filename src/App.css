@@ -156,3 +156,54 @@ li:hover {
   font-size: 14px;
   color: #555;
 }
+
+/* Additional styles for improved organization and visual appeal */
+
+.app {
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.task-manager-header {
+  margin-bottom: 20px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.form-row,
+.task-actions {
+  margin-top: 10px;
+}
+
+.task-actions button {
+  padding: 8px 12px;
+}
+
+/* Hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+}
+
+/* Responsive styles for mobile devices */
+@media (max-width: 480px) {
+  .form-row {
+    flex-direction: column;
+  }
+
+  .form-row input:not(:last-child) {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .task-actions {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
